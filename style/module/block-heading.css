@@ -5,7 +5,8 @@
 } */
 .protyle-wysiwyg,
 .b3-typography {
-  counter-reset: h1-counter 0 h2-counter 0 h3-counter 0 h4-counter 0 h5-counter 0 h6-counter 0;
+  counter-reset: h1-counter 0 h2-counter 0 h3-counter 0 h4-counter 0 h5-counter
+    0 h6-counter 0;
 }
 .protyle-wysiwyg > [data-node-id].h1,
 .protyle-wysiwyg > [data-node-id][fold="1"].h1,
@@ -19,7 +20,7 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "\00A0";
+  content: "\00A0";
 }
 .protyle-wysiwyg [data-node-id].h1,
 .b3-typography h1 {
@@ -43,7 +44,7 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "." counter(h2-counter) "\00A0";
+  content: "第" counter(h2-counter) "章\00A0";
 }
 .protyle-wysiwyg [data-node-id].h2,
 .b3-typography h2 {
@@ -67,7 +68,7 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "\00A0";
+  content: counter(h2-counter) "." counter(h3-counter) "\00A0";
 }
 .protyle-wysiwyg [data-node-id].h3,
 .b3-typography h3 {
@@ -91,7 +92,8 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "\00A0";
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter)
+    "\00A0";
 }
 .protyle-wysiwyg [data-node-id].h4,
 .b3-typography h4 {
@@ -115,7 +117,8 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) "\00A0";
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter)
+    "." counter(h5-counter) "\00A0";
 }
 .protyle-wysiwyg [data-node-id].h5,
 .b3-typography h5 {
@@ -139,7 +142,8 @@
   display: block !important;
   float: left;
   font-size: var(--custom-h-num-font-size);
-  content: counter(h1-counter) "." counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) "." counter(h6-counter) "\00A0";
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter)
+    "." counter(h5-counter) "." counter(h6-counter) "\00A0";
 }
 .protyle-wysiwyg [data-node-id].h6,
 .b3-typography h6 {
