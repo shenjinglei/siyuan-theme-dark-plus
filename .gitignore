@@ -22,3 +22,5 @@
 # 编辑器
 # /app/editor
 /app/min-maps
+
+.vscode

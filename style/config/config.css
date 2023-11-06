@@ -434,7 +434,7 @@
   /* 图片预览窗口背景颜色 | The background color of the image preview window */
   --custom-viewer-image-background-color: var(--custom-transparent-light);
   /* 阴影散布宽度 | Shadow spread */
-  --custom-box-shadow-spread: 8px;
+  --custom-box-shadow-spread: 4px;
   /* 阴影颜色 | Shadow color */
   --custom-box-shadow-color: var(--b3-theme-on-background);
   /* 鲜明颜色 | Striking color */

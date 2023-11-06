@@ -23,13 +23,13 @@
 /* 👆导出预览样式👆 */
 /* 👇编辑区样式👇 */
 .protyle-wysiwyg [data-node-id].code-block {
-  margin: 0.5em 0;
   flex-wrap: wrap;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 .protyle-wysiwyg [data-node-id].code-block > .protyle-action {
   /* 功能按钮栏 */
   position: sticky;
-  width: 100%;
   justify-content: end;
   right: 0;
   top: 0;
@@ -54,9 +54,8 @@
 .protyle-wysiwyg [data-node-id].code-block > .hljs {
   /* 代码块主体 */
   background-color: transparent;
-  margin-top: -24px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .protyle-wysiwyg [data-node-id].code-block > .protyle-linenumber__rows {
   /* 行号 */
